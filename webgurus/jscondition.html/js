@@ -1,0 +1,31 @@
+<html>
+<head>
+<title>condition statements
+</title>
+</head>
+<body>
+<script>
+var age=ParseInt(Prompt("Enter the age"));
+if(age>0 && age<18){
+	document.write("The person"+age+"years is a child");
+}
+else if(age >=18 && age <=150){
+	document.write("The person of"+age+"years is an adult")
+}
+else{
+	document.write("invalid age!");
+
+}
+
+</script>
+<script>
+var myname=Prompt("Enter your name ");
+var i=1;
+while(i<=100){
+	document.writeln( i+"."+myname);
+	i++;
+}
+</script>
+</body>
+</html>
+//if it is a range then use i=i+5 etc
